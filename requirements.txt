@@ -1,0 +1,42 @@
+# Core Dependencies (Python 3.14 compatible)
+pillow<12,>=7.1.0
+streamlit>=1.28.0
+pandas>=2.1.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+openpyxl>=3.1.0
+
+# AI Integration - Multiple Providers
+# OpenAI GPT (Paid)
+openai>=1.0.0
+
+# Google Gemini (FREE tier available)
+google-generativeai>=0.3.0
+
+# Anthropic Claude (Paid)
+anthropic>=0.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Enhanced Data Display & Editing
+streamlit-aggrid>=0.3.4
+
+# Optional: Databases & API & Parquet
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pymysql>=1.1.0
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pyarrow>=15.0.0
+scipy>=1.11.0
+
+# Optional: Google Sheets connector
+gspread>=6.0.0
+google-auth>=2.0.0
+
+# Optional: Interactive charts & web prototype
+plotly>=5.22.0
+dash>=2.17.0
